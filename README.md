@@ -1,7 +1,7 @@
 # 🌡️ Heat Transfer — Thermal Conductivity of Metals vs. Nonmetals
 
 > **Rutgers University – School of Engineering**  
-> *Anna Kalogridis | Irina Grigoryeva | Ken Ang | Nilkanth Patel | Gabriel Mustafa*
+> *Anna Kalogridis · Irina Grigoryeva · Kenneth Ang · Nilkanth Patel · Gabriel Mustafa*
 
 ---
 
@@ -27,7 +27,7 @@ Each trial stacked **3 cubes** (L = 0.0254 m per cube) in different arrangements
 ## 📊 Results
 
 ### Figure 1 — Thermal Gradient: Metal Trials
-![Metal Trials](thermal_images/metal_graph.png)
+![Metal Trials](figures/metal_graph.png)
 
 *Temperature profile (°C) across cube height for three metal stack arrangements. Steep gradients near the hotplate indicate high heat flux through conductive metals.*
 
@@ -36,7 +36,7 @@ Each trial stacked **3 cubes** (L = 0.0254 m per cube) in different arrangements
 ### Figure 2 — Thermal Gradient: Nonmetal Trials
 ![Nonmetal Trials](figures/nonmetal_graph.png)
 
-*Temperature profile for three nonmetal stack arrangements. Smoother, more uniform curves reflect the insulating behavior and higher thermal resistance of nonmetals.*
+*Temperature profile (°C) for three nonmetal stack arrangements. Smoother, more uniform curves reflect the insulating behavior and higher thermal resistance of nonmetals.*
 
 ---
 
@@ -49,7 +49,7 @@ Each trial stacked **3 cubes** (L = 0.0254 m per cube) in different arrangements
 
 ## 🔢 Key Calculations
 
-**Thermal Resistance** $R = \frac{L}{k · A}$ where $A = L²$
+**Thermal Resistance:** $R_{cond} = \frac{L}{kA}$ where $A = L²$
 
 | Stack | R (K/W) |
 |---|---|
@@ -91,7 +91,7 @@ Step 6 → Compute percent error between experimental and estimated Q
 └── README.md
 ```
 
-> 💡 **Note:** Place FLIR images in `/data/` and rename to match filenames in the `.m` script (`metals1.1.png`, etc.) before running.
+> 💡 **Note:** Place FLIR images in `/thermal_images/` and rename to match filenames in the `.m` script (`metals1.png`, etc.) before running.
 
 ---
 
