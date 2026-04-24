@@ -91,7 +91,7 @@ Step 6 → Compute percent error between experimental and estimated Q
 └── README.md
 ```
 
-> 💡 **Note:** Place FLIR images in `/thermal_images/` and rename to match filenames in the `.m` script (`metals1.png`, etc.) before running.
+> 💡 **Note:** Place FLIR images in `/thermal_images/` and rename to match filenames in the `.m` script (`metals1.1.png`, etc.) before running.
 
 ---
 
