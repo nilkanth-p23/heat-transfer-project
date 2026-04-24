@@ -27,21 +27,21 @@ Each trial stacked **3 cubes** (L = 0.0254 m per cube) in different arrangements
 ## 📊 Results
 
 ### Figure 1 — Thermal Gradient: Metal Trials
-![Metal Trials](assets/metal_trials.png)
+![Metal Trials](thermal_images/metal_graph.png)
 
 *Temperature profile (°C) across cube height for three metal stack arrangements. Steep gradients near the hotplate indicate high heat flux through conductive metals.*
 
 ---
 
 ### Figure 2 — Thermal Gradient: Nonmetal Trials
-![Nonmetal Trials](assets/nonmetal_trials.png)
+![Nonmetal Trials](figures/nonmetal_graph.png)
 
 *Temperature profile for three nonmetal stack arrangements. Smoother, more uniform curves reflect the insulating behavior and higher thermal resistance of nonmetals.*
 
 ---
 
 ### Figure 3 — Metals vs. Nonmetals (Averaged)
-![Metals vs Nonmetals](assets/metals_vs_nonmetals.png)
+![Metals vs Nonmetals](figures/metal_vs_nonmetal.png)
 
 *Averaged thermal gradient across all trials. Nonmetals showed a steeper overall rise at higher cube heights, consistent with greater heat accumulation due to poor conductivity.*
 
@@ -49,7 +49,7 @@ Each trial stacked **3 cubes** (L = 0.0254 m per cube) in different arrangements
 
 ## 🔢 Key Calculations
 
-**Thermal Resistance** `R = L / (k · A)` where A = L²
+**Thermal Resistance** $R = \frac{L}{k · A}$ where $A = L²$
 
 | Stack | R (K/W) |
 |---|---|
@@ -85,8 +85,8 @@ Step 6 → Compute percent error between experimental and estimated Q
 ## 📁 Repository Structure
 
 ```
-├── assets/                   # Thermal gradient plots (Figures 1–3)
-├── data/                     # Raw FLIR thermal images (.png)
+├── figures/                  # Thermal gradient plots (Figures 1–3)
+├── thermal_images/           # Raw FLIR thermal images (.png)
 ├── HeatTransfer_Code.m       # Full MATLAB analysis script
 └── README.md
 ```
